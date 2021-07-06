@@ -117,8 +117,16 @@ a, a:hover {
 .banner .banner-content .caption-wrapper h1 {
   font-weight: 300;
   color: #fff;
-  margin-bottom: 3rem;
   font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.banner .banner-content .caption-wrapper p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 0.7rem;
+  border-left: 4px solid #fff;
+  margin-bottom: 3rem;
 }
 
 .banner .banner-content .actions .btn-join {
