@@ -76,6 +76,7 @@ a, a:hover {
 .navbar .navbar-nav {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 .navbar .navbar-nav .nav-item {
   display: inline-block;
@@ -141,7 +142,7 @@ a, a:hover {
   background: #F8F8F8;
 }
 .stats .container {
-  width: 70%;
+  max-width: 70%;
 }
 .stats .stats-content {
   display: flex;
