@@ -21,8 +21,14 @@ a, a:hover {
   border-radius: 0.25rem;
 }
 .container {
-  max-width: 90%;
+  max-width: 85%;
   margin: auto;
+}
+.section-padding {
+  padding: 6rem 0;
+}
+.content-vertical-gap {
+  margin-top: 4rem;
 }
 
 .header-upper {
@@ -120,4 +126,30 @@ a, a:hover {
   color: #fff;
   font-size: 18px;
   font-weight: 300;
+}
+
+/* stats */
+.stats {
+  background: #F8F8F8;
+}
+.stats .container {
+  width: 70%;
+}
+.stats .stats-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stats .stats-content .stat-item {
+  width: 25%;
+  text-align: center;
+}
+.stats .stats-content .stat-item img {
+  height: 70px;
+  margin-bottom: 0.5rem;
+}
+.stats .stats-content .stat-item h1 {
+  color: #787777;
+}
+.stats .stats-content .stat-item p {
+  color: #436CBC;
 }
