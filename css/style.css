@@ -1,0 +1,38 @@
+/* Custom CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.header-upper {
+  background: #004070;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.header-upper .left-side {
+  padding: 1rem 0 0.8rem 2rem;
+  font-weight: 400;
+}
+.header-upper .left-side span {
+  vertical-align: middle;
+}
+.header-upper .right-side {
+  display: flex;
+  padding: 0.8rem 0;
+}
+.header-upper .right-side .mail > * {
+  vertical-align: middle;
+}
+.header-upper .right-side .socials {
+  margin: 0 2rem;
+}
+.header-upper .right-side a {
+  margin: 0 3px;
+}
+.header-upper .right-side img {
+  height: 20px;
+}
