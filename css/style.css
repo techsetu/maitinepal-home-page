@@ -306,3 +306,15 @@ a, a:hover {
 .donate .donate-content .share img {
   height: 25px;
 }
+
+/* footer */
+footer {
+  background: #003B68;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  padding: 0.5rem 0;
+  color: #fff;
+  font-size: 13px;
+}
