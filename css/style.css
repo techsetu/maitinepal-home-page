@@ -195,3 +195,27 @@ a, a:hover {
 .welcome .welcome-content .video {
   width: 50%;
 }
+
+/* vision, mission and values */
+.welcome .vision-mission-values {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.welcome .vision-mission-values .item-content {
+  width: 33%;
+  padding: 2rem;
+  text-align: center;
+}
+.welcome .vision-mission-values .item-content img {
+  height: 70px;
+}
+.welcome .vision-mission-values .item-content h1 {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.welcome .vision-mission-values .item-content p {
+  color: #777;
+  line-height: 24px;
+}
