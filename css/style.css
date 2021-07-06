@@ -319,3 +319,87 @@ footer p {
   color: #fff;
   font-size: 13px;
 }
+
+@media screen and (max-width: 500px) {
+  .header-upper {
+    flex-wrap: wrap;
+  }
+  .header-upper .left-side {
+    padding: 1rem 2rem;
+  }
+  .header-upper .right-side {
+    margin: auto;
+  }
+  .navbar .navbar-content {
+    flex-wrap: wrap;
+  }
+  .navbar .navbar-nav .nav-item {
+    padding: 0 0.5rem;
+  }
+  .banner .banner-content .caption-wrapper {
+    width: 95%;
+  }
+  .navbar .navbar-nav .nav-item:last-child {
+    width: 100%;
+  }
+  .navbar .navbar-brand {
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .navbar .navbar-nav .nav-item:last-child .btn-donate {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 2.5rem;
+  }
+  .banner .banner-content .caption-wrapper h1 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .stats .container {
+    max-width: 95%;
+  }
+  .stats .stats-content .stat-item {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .content-vertical-gap {
+    margin: 0;
+  }
+
+  .welcome .container {
+    width: 95%;
+  }
+  .welcome .welcome-content {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .welcome .welcome-content .caption-wrapper {
+    width: 100%;
+    padding-right: 0;
+  }
+  .welcome .welcome-content .video {
+    width: 100%;
+  }
+  .welcome .welcome-content .video iframe {
+    width: 100%;
+  }
+
+  .welcome .vision-mission-values .item-content {
+    width: 95%;
+    text-align: center;
+  }
+
+  .projects .project-content .project-item {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .projects .project-content .project-item:last-child {
+    margin-bottom: 0;
+  }
+
+
+}
