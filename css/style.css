@@ -153,3 +153,37 @@ a, a:hover {
 .stats .stats-content .stat-item p {
   color: #436CBC;
 }
+
+/* welcome */
+.welcome .container {
+  width: 70%;
+}
+.welcome .welcome-content {
+  display: flex;
+}
+.welcome .welcome-content .caption-wrapper {
+  width: 50%;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+.welcome .welcome-content .caption-wrapper h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #666;
+}
+.welcome .welcome-content .caption-wrapper h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #333;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.welcome .welcome-content .caption-wrapper p {
+  font-size: 20px;
+  color: #555;
+  font-weight: 300;
+}
+
+.welcome .welcome-content .video {
+  width: 50%;
+}
