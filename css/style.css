@@ -5,6 +5,9 @@
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
+a, a:hover {
+  text-decoration: none;
+}
 
 .header-upper {
   background: #004070;
@@ -35,4 +38,48 @@
 }
 .header-upper .right-side img {
   height: 20px;
+}
+
+/* navbar */
+/* .navbar {
+  border: 1px solid #e8e8e8;
+} */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+}
+.navbar .navbar-brand img {
+  height: 90px;
+}
+.navbar .navbar-nav {
+  display: flex;
+  list-style: none;
+}
+.navbar .navbar-nav .nav-item {
+  display: inline-block;
+  padding: 1rem 0.8rem;
+  line-height: 60px;
+}
+.navbar .navbar-nav .nav-item a {
+  color: #4282BE;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-item.active a,
+  .navbar .navbar-nav .nav-item a:hover {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #2d75b8;
+}
+.navbar .navbar-nav .nav-item .btn-donate {
+  background-color: #1ABB00;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-left: 2rem;
 }
