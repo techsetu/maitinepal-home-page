@@ -364,6 +364,13 @@ footer p {
   .stats .stats-content .stat-item {
     width: 50%;
     margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  .stats .stats-content .stat-item img {
+    height: 45px;
+  }
+  .stats .stats-content .stat-item p {
+    font-size: 14px;
   }
   .content-vertical-gap {
     margin: 0;
@@ -400,6 +407,4 @@ footer p {
   .projects .project-content .project-item:last-child {
     margin-bottom: 0;
   }
-
-
 }
