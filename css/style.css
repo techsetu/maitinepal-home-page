@@ -98,6 +98,22 @@ a, a:hover {
   margin-left: 2rem;
 }
 
+/* disclaimer */
+.disclaimer {
+  background: #444;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+.disclaimer p {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+}
+.disclaimer p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* banner */
 .banner {
   background: url("../images/bg.jpg") no-repeat center center/cover;
